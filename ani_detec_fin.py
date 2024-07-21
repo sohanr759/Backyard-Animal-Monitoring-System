@@ -57,8 +57,8 @@ print(result_text)
 from twilio.rest import Client
 
 # Your Twilio Account SID and Authentication Token
-account_sid = 'ACca712c5fa2169d03915f9c5158f1d7c2'
-auth_token = '744d41b8e0eb2a3287d71fa9902cc8e9'
+account_sid = 'your acc_ID'
+auth_token = 'your token_ID'
 
 # Create a Twilio client
 client = Client(account_sid, auth_token)
@@ -67,7 +67,7 @@ client = Client(account_sid, auth_token)
 twilio_phone_number = '+12345420437'
 
 # The recipient's phone number (in E.164 format, e.g., +1234567890)
-recipient_phone_number = '+919346395037 '
+recipient_phone_number = 'add your phone number'
 
 # The message you want to send
 message = '''An animal has been detected in the backyard. It appears to be a '''+ label + '''. Please be cautious and avoid approaching the animal. Ensure that pets are kept indoors for safety.'''
